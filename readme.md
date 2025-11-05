@@ -90,5 +90,7 @@ Each card should include: image, name, details, description, and optionally a li
 - [🐸 Flexbox Froggy](https://flexboxfroggy.com/#fr)  
 - [📘 MDN Web Docs — Flexbox](https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Flexbox)
 
+- [Visuel attendu](https://jdudon.github.io/FlexCards/)
+
 ---
 
