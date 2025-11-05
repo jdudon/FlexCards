@@ -1,213 +1,111 @@
-<!--
-    Consignes: 
-    Créez des cartes d'entretien de plantes et gérer les placements en Flexbox.
-    N'hésitez pas à utiliser des composants car toutes les cartes se ressemblent!
-    Aucun placement avec des margins ou des Inline-block... 
-    (ça ne veut pas dire que vous ne pouvez pas utiliser les margins et paddings du tout!!!)
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/fcd6974846.js" crossorigin="anonymous"></script>
-    <title>Cards</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GreenCorner — Cartes d'entretien</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/fcd6974846.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <nav class="navbar">
-        <i class="fa-solid fa-leaf"></i>
-        <ul>
-            <li><a href="#">Lien 45</a></li>
-            <li><a href="#">Lien 2</a></li>
-            <li><a href="#">Lien 3</a></li>
-        </ul>
-    </nav>
-    <!-- Cartes d'entretien des plantes-->
-    <section>
-        <h1>L'entretien de nos plantes</h1>
-        <div class="cards">
-            <div class="card">
-                <div class="img">
-                    <h2>Une plante au pif</h2>
-                    <img src="plant.jpg" alt="">
-                </div>
-                <div class="txtCard">
-                    <h2>Sécificités:</h2>
-                    uguguygyg
-                    kokokokokokokok
-                    <div class="iconGroup">
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                    </div>
-                    <div class="iconGroup">
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                    </div>
-                    <h2>Description: </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis suscipit dolore est
-                        quos
-                        nulla, hic vel inventore nemo. Et perspiciatis velit sapiente eaque in voluptatibus facere
-                        inventore
-                        quibusdam eum?</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <h2>Une plante au pif</h2>
-                    <img src="plant.jpg" alt="">
-                </div>
-                <div class="txtCard">
-                    <h2>Sécificités:</h2>
-                    <div class="iconGroup">
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                    </div>
-                    <div class="iconGroup">
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                    </div>
-                    <h2>Description: </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis suscipit dolore est
-                        quos
-                        nulla, hic vel inventore nemo. Et perspiciatis velit sapiente eaque in voluptatibus facere
-                        inventore
-                        quibusdam eum?</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <h2>Une plante au pif</h2>
-                    <img src="plant.jpg" alt="">
-                </div>
-                <div class="txtCard">
-                    <h2>Sécificités:</h2>
-                    <div class="iconGroup">
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                    </div>
-                    <div class="iconGroup">
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                    </div>
-                    <h2>Description: </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis suscipit dolore est
-                        quos
-                        nulla, hic vel inventore nemo. Et perspiciatis velit sapiente eaque in voluptatibus facere
-                        inventore
-                        quibusdam eum?</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <h2>Une plante au pif</h2>
-                    <img src="plant.jpg" alt="">
-                </div>
-                <div class="txtCard">
-                    <h2>Sécificités:</h2>
-                    <div class="iconGroup">
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                    </div>
-                    <div class="iconGroup">
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                    </div>
-                    <h2>Description: </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis suscipit dolore est
-                        quos
-                        nulla, hic vel inventore nemo. Et perspiciatis velit sapiente eaque in voluptatibus facere
-                        inventore
-                        quibusdam eum?</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <h2>Une plante au pif</h2>
-                    <img src="plant.jpg" alt="">
-                </div>
-                <div class="txtCard">
-                    <h2>Sécificités:</h2>
-                    <div class="iconGroup">
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                    </div>
-                    <div class="iconGroup">
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                        <div class="iconCard">
-                            <i class="fa-solid fa-seedling"></i>
-                            <p>A arroser tous les...?</p>
-                        </div>
-                    </div>
-                    <h2>Description: </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis suscipit dolore est
-                        quos
-                        nulla, hic vel inventore nemo. Et perspiciatis velit sapiente eaque in voluptatibus facere
-                        inventore
-                        quibusdam eum?</p>
-                </div>
-            </div>
-        </div>
-    </section>
-</body>
+  <nav class="navbar">
+    <a class="brand" href="index.html" aria-label="Accueil">
+      <i class="fa-solid fa-leaf"></i> GreenCorner
+    </a>
+    <ul class="navlinks">
+      <li><a href="#catalogue">Catalogue</a></li>
+      <li><a href="mailto:hello@greencorner.fr">Contact</a></li>
+      <li><a href="tel:+33612345678">+33 6 12 34 56 78</a></li>
+    </ul>
+  </nav>
 
-</html>
+  <main class="container">
+    <section id="catalogue" aria-label="Entretien des plantes">
+      <h1>L'entretien de nos plantes</h1>
+
+      <div class="cards">
+        <!-- Card -->
+        <article class="card">
+          <img src="plant.jpg" alt="Ficus lyrata en pot vert" class="card-img" />
+          <div class="card-body">
+            <h2 class="card-title">Ficus lyrata</h2>
+
+            <h3 class="card-sub">Spécificités</h3>
+            <div class="icon-row">
+              <div class="icon-card"><i class="fa-solid fa-droplet"></i><p>Arrosage modéré 1×/sem.</p></div>
+              <div class="icon-card"><i class="fa-solid fa-sun"></i><p>Lumière indirecte vive</p></div>
+            </div>
+            <div class="icon-row">
+              <div class="icon-card"><i class="fa-solid fa-temperature-three-quarters"></i><p>18–24 °C</p></div>
+              <div class="icon-card"><i class="fa-solid fa-pump-soap"></i><p>Brouillard: parfois</p></div>
+            </div>
+
+            <h3 class="card-sub">Description</h3>
+            <p>Grandes feuilles en forme de violon. Éviter les courants d’air et tourner le pot régulièrement.</p>
+          </div>
+        </article>
+
+        <!-- Duplique cette card et change juste les contenus pour tes autres plantes -->
+        <article class="card">
+          <img src="plant.jpg" alt="Monstera deliciosa en pot vert" class="card-img" />
+          <div class="card-body">
+            <h2 class="card-title">Monstera deliciosa</h2>
+            <h3 class="card-sub">Spécificités</h3>
+            <div class="icon-row">
+              <div class="icon-card"><i class="fa-solid fa-droplet"></i><p>Laisser sécher 2–3 cm</p></div>
+              <div class="icon-card"><i class="fa-solid fa-sun"></i><p>Lumière indirecte</p></div>
+            </div>
+            <div class="icon-row">
+              <div class="icon-card"><i class="fa-solid fa-seedling"></i><p>Rempotage: 2 ans</p></div>
+              <div class="icon-card"><i class="fa-solid fa-skull-crossbones"></i><p>Toxique animaux</p></div>
+            </div>
+            <h3 class="card-sub">Description</h3>
+            <p>Feuilles perforées emblématiques. Besoin de lumière non directe et d’un arrosage modéré.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="plant.jpg" alt="Sansevieria en pot vert" class="card-img" />
+          <div class="card-body">
+            <h2 class="card-title">Sansevieria (Plante serpent)</h2>
+            <h3 class="card-sub">Spécificités</h3>
+            <div class="icon-row">
+              <div class="icon-card"><i class="fa-solid fa-droplet"></i><p>Peu d’eau, 1×/2–3 sem.</p></div>
+              <div class="icon-card"><i class="fa-solid fa-sun"></i><p>Ombre à lumineux</p></div>
+            </div>
+            <div class="icon-row">
+              <div class="icon-card"><i class="fa-solid fa-temperature-quarter"></i><p>15–27 °C</p></div>
+              <div class="icon-card"><i class="fa-solid fa-leaf"></i><p>Facile d’entretien</p></div>
+            </div>
+            <h3 class="card-sub">Description</h3>
+            <p>Idéale pour débutants. Tolère les oublis d’arrosage et la faible luminosité.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="plant.jpg" alt="Pilea peperomioides en pot vert" class="card-img" />
+          <div class="card-body">
+            <h2 class="card-title">Pilea peperomioides</h2>
+            <h3 class="card-sub">Spécificités</h3>
+            <div class="icon-row">
+              <div class="icon-card"><i class="fa-solid fa-droplet"></i><p>Arrosage léger hebdo</p></div>
+              <div class="icon-card"><i class="fa-solid fa-sun"></i><p>Lumière tamisée</p></div>
+            </div>
+            <div class="icon-row">
+              <div class="icon-card"><i class="fa-solid fa-scissors"></i><p>Division des rejets</p></div>
+              <div class="icon-card"><i class="fa-solid fa-check"></i><p>Non toxique</p></div>
+            </div>
+            <h3 class="card-sub">Description</h3>
+            <p>Produit facilement des rejets. Éviter l’excès d’eau.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="plant.jpg" alt="Zamioculcas en pot vert" class="card-img" />
+          <div class="card-body">
+            <h2 class="card-title">Zamioculcas (ZZ plant)</h2>
+            <h3 class="card-sub">Spécificités</h3>
+            <div class="icon-row">
+              <div class="icon-card"><i class="fa-solid fa-droplet"></i><p>Arroser quand sec</p></div>
+              <div class="icon-card"><i class="fa-solid fa-sun"></i><p>Lumière faible à moyenne</p></div>
+            </div>
